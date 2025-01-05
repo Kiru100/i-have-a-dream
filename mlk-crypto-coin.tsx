@@ -31,10 +31,10 @@ export default function MLKCryptoCoin() {
 						<div className="mb-10 md:mb-0 md:mr-10">
 							<h1 className="text-4xl md:text-6xl font-bold mb-4">Dream ($MLK) Coin</h1>
 							<p className="text-xl mb-6">Empowering change through blockchain, inspired by Martin Luther King Jr. day on January 20, 2025.</p>
-							<div className="flex flex-row gap-2 rounded-[8px] bg-neutral-700 self-start overflow-hidden font-inter-normal items-center text-wrap mb-6">
-								<p className="text-zinc-300 w-full break-all p-2 text-sm">CA: 1w1QbBj9AS89pds1X2zbEWVpjR5mbs4RBYWxNJaZpump</p>
+							<div className="flex flex-row gap-2 rounded-[8px] bg-neutral-700 overflow-hidden font-inter-normal items-center text-wrap mb-6 w-fit">
+								<p className="text-zinc-300 w-full break-all p-2 text-sm">CA: w1QbBj9AS89pds1X2zbEWVpjR5mbs4RBYWxNJaZpump</p>
 								<button 
-									className="bg-neutral-800 h-full p-2 hover:text-zinc-100 hover:bg-neutral-900 transition-all duration-300 ease-in-out active:bg-slate-950"
+									className="bg-neutral-800 rounded p-2 mr-2 md:mr-0 hover:text-zinc-100 hover:bg-neutral-900 transition-all duration-300 ease-in-out active:bg-slate-950"
 									onClick={copyToClipboard}
 								>
 									<LuClipboardCopy size="24" className="text-zinc-300" />
